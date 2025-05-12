@@ -20,5 +20,7 @@ for %%S in (%SERVIDORES%) do (
     echo. >> %LOG%
 )
 
+:: Após finalizado ele salva o arquivo de log automaticamente
+
 echo Testes finalizados. Veja o arquivo: %LOG%
 pause
